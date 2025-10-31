@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard - CuraLink</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Patient Dashboard</h1>
+        <div id="onboarding">
+            <h2>Set Up Your Profile</h2>
+            <textarea id="conditionInput" placeholder="Describe your condition, e.g., 'I have Brain Cancer'"></textarea>
+            <button onclick="setupProfile('patient')">Save Profile</button>
+        </div>
+        <div id="dashboard" style="display: none;">
+            <h2>Recommended for You</h2>
+            <input type="text" id="searchInput" placeholder="Search, e.g., 'Lung Cancer Trials'">
+            <button onclick="searchItems()">Search</button>
+            <div id="results"></div>
+            <h3>Favorites</h3>
+            <div id="favorites"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

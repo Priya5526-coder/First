@@ -1,0 +1,26 @@
+{
+    "trials": [
+        {
+            "title": "Brain Cancer Immunotherapy Trial",
+            "condition": "brain cancer",
+            "description": "A clinical trial testing new immunotherapy for brain cancer patients."
+        },
+        {
+            "title": "Lung Cancer Vaccine Study",
+            "condition": "lung cancer",
+            "description": "Research on vaccines for lung cancer treatment."
+        }
+    ],
+    "collaborators": [
+        {
+            "title": "Dr. John Doe",
+            "specialty": "Oncology",
+            "description": "Expert in cancer research with 10 years experience."
+        },
+        {
+            "title": "Dr. Jane Smith",
+            "specialty": "Neurology",
+            "description": "Specializes in neurological disorders."
+        }
+    ]
+}
